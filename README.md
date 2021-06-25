@@ -1,0 +1,3 @@
+The basic layout of this repository is split between client and server. The client is the code that runs behind the chrome extension. This code is composed of several javascript files which handle tracking user actions in the browser and sending it to the server. The server code, written in python, receives messages from the client and stores the data in a specified SQL database. 
+
+This browsing extension was used in the experiment for "How we browse: Measurement and analysis of digital behavior" by Yuliia Lut, Michael Wang, Elissa M. Redmiles, and Rachel Cummings. Code written by Michael Wang.
